@@ -61,7 +61,7 @@ document.querySelectorAll('.project-card').forEach(card => {
         const projectId = card.querySelector('.project-id').textContent;
         const project = resumeData.projects.find(p => p.id === projectId);
 
-        if (project) {
+        if (project && project.video) {
             // Check if video exists (in a real app, you might want to check if file loads, but here we just check property)
             // For now, let's assume if the user puts a video path, they want to show it.
             // We can also double check if it's a dummy path or real.
@@ -74,15 +74,9 @@ document.querySelectorAll('.project-card').forEach(card => {
                         Your browser does not support the video tag.
                     </video>
                 `;
-            } else {
-                mediaContent = `
-                    <div class="modal-media-placeholder">
-                        [ Visual Media / GIF Placeholder for ${project.title} ]
-                    </div>
-                 `;
-            }
 
-            modalBody.innerHTML = `
+
+                modalBody.innerHTML = `
                 <div class="modal-title">${project.title}</div>
                 <div class="modal-tech">// ${project.tech}</div>
                 <div class="modal-media-container">
@@ -99,18 +93,19 @@ document.querySelectorAll('.project-card').forEach(card => {
                 </div>
             `;
 
-            // Post-render logic for video orientation
-            const videoEl = modalBody.querySelector('video');
-            if (videoEl) {
-                videoEl.onloadedmetadata = function () {
-                    if (this.videoHeight > this.videoWidth) {
-                        this.classList.add('portrait');
-                        this.parentElement.classList.add('portrait');
-                    }
-                };
-            }
+                // Post-render logic for video orientation
+                const videoEl = modalBody.querySelector('video');
+                if (videoEl) {
+                    videoEl.onloadedmetadata = function () {
+                        if (this.videoHeight > this.videoWidth) {
+                            this.classList.add('portrait');
+                            this.parentElement.classList.add('portrait');
+                        }
+                    };
+                }
 
-            modal.classList.remove('hidden');
+                modal.classList.remove('hidden');
+            }
         }
     });
 });

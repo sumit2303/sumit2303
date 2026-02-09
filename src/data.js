@@ -90,10 +90,14 @@ Proven ability to lead cross-functional teams, develop full-stack solutions, and
             title: "On-Device Cricket Delivery & Pose Detection",
             tech: "Flutter, Dart, ML Kit, FFmpeg, Pose Detection, Edge AI",
 <<<<<<< HEAD
+<<<<<<< HEAD
             video: "./media/delivery-detection-clips.mp4",
 =======
             video: "/media/delivery-detection-clips.mp4",
 >>>>>>> main
+=======
+            video: "./media/delivery-detection-clips.mp4",
+>>>>>>> initial-setup
             description: "Architected a high-performance video processing pipeline entirely on-device using <b>Edge Computing</b> principles. Engineered a parallelized 'Consumer-Producer' pipeline for live video ingestion and real-time <b>Cricket Delivery Detection</b> to auto-capture fast-paced action.",
             stats: [
                 { label: "Platform", value: "Mobile/Edge" },
@@ -105,10 +109,14 @@ Proven ability to lead cross-functional teams, develop full-stack solutions, and
             title: "High-Fidelity Cricket Ball Tracking",
             tech: "Python, OpenCV, PyTorch, 3D Reconstruction, Docker",
 <<<<<<< HEAD
+<<<<<<< HEAD
             video: "./media/tracking_2d.mp4",
 =======
             video: "/media/tracking_2d.mp4",
 >>>>>>> main
+=======
+            video: "./media/tracking_2d.mp4",
+>>>>>>> initial-setup
             description: "Designed a modular Computer Vision backend to track cricket balls using custom <b>TrackNet Nano</b> architecture. Implemented <b>Monocular Depth Estimation</b> and physics-aware <b>3D Trajectory Reconstruction</b>.",
             stats: [
                 { label: "AI Model", value: "Custom CNN" },
@@ -120,10 +128,14 @@ Proven ability to lead cross-functional teams, develop full-stack solutions, and
             title: "Interactive 3D Video Replay System",
             tech: "Three.js, WebGL, GLSL, Spatial Mapping, Data Viz",
 <<<<<<< HEAD
+<<<<<<< HEAD
             video: "./media/3d-reconstruction.mp4",
 =======
             video: "/media/3d-reconstruction.mp4",
 >>>>>>> main
+=======
+            video: "./media/3d-reconstruction.mp4",
+>>>>>>> initial-setup
             description: "Created a 'Python-to-Web' visualization bridge generating interactive 3D web replays. Solved complex <b>Coordinate System Transformations</b> to map physical world metric data to <b>WebGL</b> scene graphs for Hawk-Eye style playback.",
             stats: [
                 { label: "Render", value: "Three.js" },
