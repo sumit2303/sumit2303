@@ -19,10 +19,10 @@ Proven ability to lead cross-functional teams, develop full-stack solutions, and
             tech: "Python, Unity, Shell, GitLab CI, Custom Libs",
             details: [
                 "Internal Support Tools",
-                "QA Automation",
+                "Game Tools and Automation",
                 "Telemetry Integration",
                 "Developer Productivity",
-                "System Diagnostics"
+                "Applied AI and AI Tools Integration"
             ]
         },
         {
@@ -31,7 +31,7 @@ Proven ability to lead cross-functional teams, develop full-stack solutions, and
             period: "Aug 2020 – June 2022",
             tech: "TypeScript, Azure Pipelines, Azure Templates",
             details: [
-                "Test Automation Frameworks",
+                "Tools and Automation Pipelines",
                 "CI/CD Pipelines",
                 "Regression Testing",
                 "Load Optimization (JMeter)"
@@ -79,7 +79,6 @@ Proven ability to lead cross-functional teams, develop full-stack solutions, and
             tech: "Computer Science, Java, C++, Data Structures",
             details: [
                 "Information Science & Engineering",
-                "Cultural Committee President",
                 "Cricket Team Member"
             ]
         }
@@ -90,7 +89,7 @@ Proven ability to lead cross-functional teams, develop full-stack solutions, and
             title: "On-Device Cricket Delivery & Pose Detection",
             tech: "Flutter, Dart, ML Kit, FFmpeg, Pose Detection, Edge AI",
             video: "./media/delivery-detection-clips.mp4",
-            description: "Architected a high-performance video processing pipeline entirely on-device using <b>Edge Computing</b> principles. Engineered a parallelized 'Consumer-Producer' pipeline for live video ingestion and real-time <b>Cricket Delivery Detection</b> to auto-capture fast-paced action.",
+            description: "Architected a parallelized 'Consumer-Producer' video pipeline on-device using **Flutter & ML Kit**. Optimized performance via a custom thermal throttling algorithm, 80% storage reduction through zero-copy data handling, and **FFmpeg-powered** sub-2s video clip generation.",
             stats: [
                 { label: "Platform", value: "Mobile/Edge" },
                 { label: "Latency", value: "Real-time" }
@@ -101,7 +100,7 @@ Proven ability to lead cross-functional teams, develop full-stack solutions, and
             title: "High-Fidelity Cricket Ball Tracking",
             tech: "Python, OpenCV, PyTorch, 3D Reconstruction, Docker",
             video: "./media/tracking_2d.mp4",
-            description: "Designed a modular Computer Vision backend to track cricket balls using custom <b>TrackNet Nano</b> architecture. Implemented <b>Monocular Depth Estimation</b> and physics-aware <b>3D Trajectory Reconstruction</b>.",
+            description: "Designed a deep-learning-based ball tracking system using a custom **TrackNet Nano** architecture (MobileNetV3). Implemented a monocular 3D reconstruction engine to derive metric trajectories from pixel data, integrated with a serverless GPU backend (RunPod) for scalable processing.",
             stats: [
                 { label: "AI Model", value: "Custom CNN" },
                 { label: "Scale", value: "Serverless" }
@@ -112,7 +111,7 @@ Proven ability to lead cross-functional teams, develop full-stack solutions, and
             title: "Interactive 3D Video Replay System",
             tech: "Three.js, WebGL, GLSL, Spatial Mapping, Data Viz",
             video: "./media/3d-reconstruction.mp4",
-            description: "Created a 'Python-to-Web' visualization bridge generating interactive 3D web replays. Solved complex <b>Coordinate System Transformations</b> to map physical world metric data to <b>WebGL</b> scene graphs for Hawk-Eye style playback.",
+            description: "Developed a 'Python-to-Web' visualization bridge that renders interactive, physics-accurate 3D stadium replays using **Three.js & WebGL**. Engineered portable offline-capable micro-reports featuring Catmull-Rom spline trajectory smoothing and procedural stadium lighting.",
             stats: [
                 { label: "Render", value: "Three.js" },
                 { label: "Mode", value: "Interactive" }
